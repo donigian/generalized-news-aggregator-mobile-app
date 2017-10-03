@@ -32,7 +32,7 @@ public class NewsWallAdapter extends RecyclerView.Adapter<NewsWallAdapter.NewsWa
     }
 
     @Override
-    public void onBindViewHolder(NewsWallViewHolder holder, int position) {
+    public void onBindViewHolder(NewsWallViewHolder holder, final int position) {
         Article article = newsArticles.get(position);
         Glide.with(holder.storyImageView.getContext()).load(article.getNewsImageUrl())
                 .centerCrop()
@@ -40,6 +40,12 @@ public class NewsWallAdapter extends RecyclerView.Adapter<NewsWallAdapter.NewsWa
         holder.storyTitleTextView.setText(article.getNewsTitle());
         holder.storyTimeTextView.setText(article.getNewsTime());
         holder.storyContentTextView.setText(article.getNewsDetails());
+        holder.itemView.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                ArticleDetailsActivity.launch(view.getContext(), position);
+            }
+        });
     }
 
     @Override
