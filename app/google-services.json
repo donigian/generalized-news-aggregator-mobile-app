@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "998899075918",
+    "firebase_url": "https://unofficialvergenewsapp.firebaseio.com",
+    "project_id": "unofficialvergenewsapp",
+    "storage_bucket": "unofficialvergenewsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998899075918:android:a260ba15322c4c85",
+        "android_client_info": {
+          "package_name": "app.vergenews.unofficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998899075918-36c71mghi8bo5f79s0ns9ivei6qlac7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.vergenews.unofficial",
+            "certificate_hash": "305fa928521b0d323b84530c38d4e94e7c5a0396"
+          }
+        },
+        {
+          "client_id": "998899075918-5rpl14i943rn1fi9ai9ee8sesp8mss65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL8MZ17XysG1dnPi11tzTLzx6NwUU0wIU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998899075918-5rpl14i943rn1fi9ai9ee8sesp8mss65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

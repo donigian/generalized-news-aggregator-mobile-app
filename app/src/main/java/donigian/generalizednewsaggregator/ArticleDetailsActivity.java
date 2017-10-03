@@ -56,8 +56,8 @@ public class ArticleDetailsActivity extends AppCompatActivity {
                 Toast.makeText(ArticleDetailsActivity.this, "Error in loading web page", Toast.LENGTH_SHORT).show();
             }
         });
-        webView.loadUrl(ArticleDataStore.getNewsArticles().get(index).getNewsUrlToArticle());
-        getSupportActionBar().setTitle(ArticleDataStore.getNewsArticles().get(index).getNewsTitle());
+        webView.loadUrl(ArticleDataStore.getNewsArticles().get(index).getUrlToImage());
+        getSupportActionBar().setTitle(ArticleDataStore.getNewsArticles().get(index).getTitle());
     }
 
     public static void launch(Context context, int index){
